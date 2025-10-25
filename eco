@@ -2,7 +2,7 @@ import telebot
 import random
 
 # --- Твой токен (замени на свой) ---
-TOKEN = ""
+TOKEN = "8380658137:AAH7xLCPkW3rYroeHGHNBCLC6ymU67Liojo"
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -42,34 +42,34 @@ def send_problems(message):
     problems_text = """🌍 🔥 Проблемы загрязнения окружающей среды:
 
 1️⃣ 🌫️ Загрязнение воздуха
-https://www.unep.org/ru/temy/zagryaznenie-vozduha
+https://ru.ruwiki.ru/wiki/%D0%97%D0%B0%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B0%D1%82%D0%BC%D0%BE%D1%81%D1%84%D0%B5%D1%80%D1%8B_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8
 
 2️⃣ 💧 Загрязнение вод  
-https://www.un.org/ru/global-issues/water
+https://ru.ruwiki.ru/wiki/%D0%97%D0%B0%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D1%81%D1%80%D0%B5%D0%B4%D1%8B
 
 3️⃣ 🌱 Загрязнение почв
-https://www.fao.org/soils-portal/ru/
+https://journal.sovcombank.ru/esg/zagryaznenie-pochvi-prichini-i-posledstviya
 
 4️⃣ 🗑️ Накопление твёрдых отходов
-https://www.unep.org/ru/temy/othody
+https://vyvoz-musora24.ru/article/ekologicheskaya-problema-musora/
 
 5️⃣ 🥤 Пластиковое загрязнение
-https://www.unep.org/ru/temy/plastik
+https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B7%D0%B0%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5
 
 6️⃣ 🐾 Снижение биоразнообразия
-https://www.cbd.int/
+https://ru.ruwiki.ru/wiki/%D0%A3%D1%82%D1%80%D0%B0%D1%82%D0%B0_%D0%B1%D0%B8%D0%BE%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D1%8F
 
 7️⃣ 🌧️ Кислотные осадки
-https://www.epa.gov/acidrain
+https://yandex.ru/pogoda/ru/blog/kislotnye_dozhdi
 
 8️⃣ 🕶️ Разрушение озонового слоя
-https://ozone.unep.org/
+https://en.wikipedia.org/wiki/Ozone_depletion
 
 9️⃣ 🔊 Шумовое загрязнение
-https://www.who.int/europe/news-room/fact-sheets/item/noise
+https://ru.wikipedia.org/wiki/%D0%A8%D1%83%D0%BC%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B7%D0%B0%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5
 
 🔟 💡 Световое загрязнение
-https://www.darksky.org/light-pollution/
+https://ru.ruwiki.ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B7%D0%B0%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5
 
 💚 Вместе мы можем изменить мир к лучшему! 🌟"""
     
